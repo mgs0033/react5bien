@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(190, 202, 178);
+  margin: 0;
+  padding: 0;
+}
+
+#cabecera {
+  background-color: #7c8f73;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+#cabecera h1 {
+  font-size: 34px;
+}
+
+#foto1 {
+  float: right;
+  border-radius: 20%;
+  width: 100px;
+}
+
+section {
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  color: #0a0a0a;
+}
+
+section p {
+  margin: 0;
+}
+
+section img {
+  width: 100%;
+  max-width: 200px;
+  display: block;
+  margin: auto;
+  transition: transform 0.3s; /* Transición para el cambio de tamaño */
+}
+
+/* Agranda las imágenes al hacer hover */
+section img:hover {
+  transform: scale(1.1); /* Escala la imagen al 110% cuando está en estado de hover */
+}
+
+#publicacion1,
+#publicacion2,
+#publicacion3,
+#publicacion4,
+#publicacion5,
+#publicacion6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:focus {
+  outline: none;
+}
+
+.tw-followCard-button.is-following {
+  background-color: #dc3545;
+}
+
+.tw-followCard-stopFollow {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transform: rotate(45deg);
+  margin-left: 5px;
+}
